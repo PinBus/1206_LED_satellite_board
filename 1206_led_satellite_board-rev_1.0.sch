@@ -1,0 +1,93 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "1206 LED Satellite Board"
+Date "2018-08-18"
+Rev "1.0"
+Comp "PinBus"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 5B7861C2
+P 5700 3700
+F 0 "D1" H 5692 3445 50  0000 C CNN
+F 1 "LED" H 5692 3536 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 5700 3700 50  0001 C CNN
+F 3 "~" H 5700 3700 50  0001 C CNN
+	1    5700 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5B7862C2
+P 6100 3700
+F 0 "D2" H 6092 3445 50  0000 C CNN
+F 1 "LED" H 6092 3536 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 6100 3700 50  0001 C CNN
+F 3 "~" H 6100 3700 50  0001 C CNN
+	1    6100 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5B7862E4
+P 6500 3700
+F 0 "D3" H 6492 3445 50  0000 C CNN
+F 1 "LED" H 6492 3536 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 6500 3700 50  0001 C CNN
+F 3 "~" H 6500 3700 50  0001 C CNN
+	1    6500 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5B786354
+P 6700 3900
+F 0 "R1" H 6770 3946 50  0000 L CNN
+F 1 "0R" H 6770 3855 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" V 6630 3900 50  0001 C CNN
+F 3 "~" H 6700 3900 50  0001 C CNN
+	1    6700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5B786542
+P 4900 3850
+F 0 "J1" H 5006 4028 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5006 3937 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight" H 4900 3850 50  0001 C CNN
+F 3 "~" H 4900 3850 50  0001 C CNN
+	1    4900 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3850 5400 3850
+Wire Wire Line
+	5400 3850 5400 3700
+Wire Wire Line
+	5400 3700 5550 3700
+Wire Wire Line
+	5850 3700 5950 3700
+Wire Wire Line
+	6250 3700 6350 3700
+Wire Wire Line
+	6650 3700 6700 3700
+Wire Wire Line
+	6700 3700 6700 3750
+Wire Wire Line
+	6700 4050 6700 4100
+Wire Wire Line
+	6700 4100 5400 4100
+Wire Wire Line
+	5400 4100 5400 3950
+Wire Wire Line
+	5400 3950 5100 3950
+$EndSCHEMATC
